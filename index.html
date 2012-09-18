@@ -1,0 +1,28 @@
+---
+layout: default
+title: 巨鲸夜游 —— 和风一起赛跑
+---
+
+<ul class="index">
+{% for post in paginator.posts %}
+  <li>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.content | | split:'<!-- more -->' | first }}</p>
+  </li>
+{% endfor %}
+</ul>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a href="/" class="pagination-left">&larr;</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}/" class="pagination-left">&larr;</a>
+    {% endif %}
+  {% endif %}
+  <span>{{ paginator.page }} / {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}/" class="pagination-right">&rarr;</a>
+  {% endif %}
+</div>
+{% endif %}

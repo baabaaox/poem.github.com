@@ -1,0 +1,109 @@
+.pln {
+    color: #fffefe !important
+}
+
+pre .str {
+    color: #f4645f
+}
+
+pre .kwd {
+    color: #4bb1b1
+}
+
+pre .com {
+    color: #888
+}
+
+pre .typ {
+    color: #ef7c61
+}
+
+pre .lit {
+    color: #bcd42a
+}
+
+pre .pun,pre .opn,pre .clo {
+    color: #fff
+}
+
+pre .tag {
+    color: #4bb1b1
+}
+
+pre .atn {
+    color: #ef7c61
+}
+
+pre .atv {
+    color: #bcd42a
+}
+
+pre .dec,pre .var {
+    color: #606
+}
+
+pre .fun {
+    color: red
+}
+
+.prettyprint {
+    display: block;
+    background-color: #333;
+    font-size: 14px;
+    border: 0;
+    color: #e9e4e5;
+    line-height: 1.5;
+    padding: 15px !important;
+    white-space: pre;
+    overflow: hidden
+}
+
+.prettyprint .pln {
+    color: #e9e4e5
+}
+
+.prettyprint .com {
+    color: #888
+}
+
+.prettyprint .pun,.prettyprint .opn,.prettyprint .clo {
+    color: #fff
+}
+
+.prettyprint .dec,.prettyprint .var {
+    color: #606
+}
+
+.prettyprint .fun {
+    color: red
+}
+
+.prettyprint code {
+    font-family: Monaco,Consolas,"Lucida Console",monospace;
+    font-size: 11px
+}
+
+.prettyprint .str,.prettyprint .lit,.prettyprint .atv {
+    color: #bcd42a
+}
+
+.prettyprint .kwd,.prettyprint .tag {
+    color: #4bb1b1
+}
+
+.prettyprint .typ,.prettyprint .atn {
+    color: #ef7c61
+}
+
+ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5px
+}
+
+ol.linenums li {
+    background: transparent !important;
+    color: #888;
+    list-style-type: decimal !important;
+    font-size: 14px !important
+}

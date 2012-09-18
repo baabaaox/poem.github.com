@@ -1,0 +1,6 @@
+encoding: UTF-8
+markdown: kramdown
+url: http://poem.jjyy.me
+motto: When I tell you I'm a sailor when in fact I was a captain!
+permalink: /:year/:month/:day/:title/
+paginate: 10
